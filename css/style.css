@@ -1,0 +1,101 @@
+
+/*
+Creador: Carlos Rojas <carlos@coderhouse.com>
+
+Archivo principal que va a dar estilo a todo el portal.
+*/
+body{
+	background-color: red;
+	margin: 0;
+	padding: 0;
+}
+
+p { 
+font-family: Helvetica, Arial, sans-serif; 
+font-size: 16px; 
+color: black; 
+text-align: justify;
+}
+
+header{
+	text-align: center;
+	padding: 30px 40px;
+	background-color: black;
+	min-height: 200px;
+	height: 30%;
+}
+
+header h1{
+	color: white;
+}
+
+article{
+	margin:30px 30px; border: 1px solid black; padding: 10%;
+	background-color: white;
+}
+
+footer{
+	margin: 30px; background-color: black; border: 2px dotted gray;
+	padding: 10%;
+	color: white;
+}
+
+div.claseFuenteTitulo{
+	color: green;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.claseCentrado{
+	text-align: center;
+}
+
+#slogan{
+	color: gray;
+}
+
+h1{
+    color:gray;
+}
+
+div h1{
+    color: green;
+}
+
+ul {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+ul li{
+  list-style-type: circle;
+  color: yellow;
+}
+
+a{
+	text-decoration:none
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    padding: 20px;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: green;
+    color:red;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
